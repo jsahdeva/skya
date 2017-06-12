@@ -1022,12 +1022,12 @@ ul.rig li {
 }
 ul.rig li img{
 	max-width: 100%;
-	height: auto;
+	height: 449px;
 	margin: 0 0 10px;
 }
 ul.rig li div{
 	max-width: 100%;
-	height: auto;
+	height: 50px;
 	margin: 0 0 10px;
 }
 ul.rig li h3 {
@@ -1044,7 +1044,7 @@ ul.rig.columns-2 li {
 }
 /* class for 3 columns */
 ul.rig.columns-3 li {
-	width: 27.00%; /* this value + 2.5 should = 33% */
+	width: 25.00%; /* this value + 2.5 should = 33% */
 }
 /* class for 4 columns */
 ul.rig.columns-4 li {
@@ -1066,4 +1066,15 @@ ul.rig.columns-4 li {
 		width: 100% !important; /* over-ride all li styles */
 		margin: 0 0 20px;
 	}
+}
+.wrapper .text {
+  background-color: #F79F33;
+  color: white;
+  font-size: 16px;
+  /*padding: 16px 32px;*/
+  visibility:hidden;
+}
+
+.wrapper:hover .text {
+visibility:visible;
 }
